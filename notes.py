@@ -45,3 +45,37 @@
 #print("\n") # newline
 #print("\t") # tab
 #print("\\") # \
+
+name = "Chuck"
+number= 100
+newnumber= "100"
+print(number/2)
+#How to cast!
+print(int(newnumber)/2)
+
+myfloat= 3.54
+
+num1= 100
+num2= 75
+num3=957
+
+avg= (num1 + num2 + num3)/3
+print(f"Average: {avg}")
+print(avg)
+print("Average", avg)
+print("Average" + str(avg))
+
+beds= 3
+bath= 2
+address= "435 mathisgoingtobeatmeup way"
+city= "Folsom"
+zip= 95630
+rent= 5000
+
+print(f"House for rent at {address} in {city} {zip}")
+print(f"\t{beds} bedrooms, {bath} bathrooms")
+print(f"\trent is ${rent}/month")
+
+#file path example
+#C:\Users\lalit\Documents\OneNote Notebooks
+print("I have a file located at: C:\\Users\\lalit\\Documents\\\OneNote Notebooks")
