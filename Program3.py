@@ -24,10 +24,11 @@ upper = 3000
 
 print("my name is ", name, " , I am ", age, "years old")
 print("my skills are")
-print("- ", skill1, " (", level1, ")")
-print("- ", skill2, " (", level2, ")")
-print("- ", skill3, " (", level3, " )")
-print("I am looking for a job with a salary of", lower, "-", upper, "dollars per month")
+print("- " + skill1 + " (" + level1 + ")")
+print("- " + skill2 + " (",level2 + ")")
+print("- " + skill3 + " (" + level3 + ")" '\n\n')
+
+print(f"I am looking for a job with a salary of {lower} - {upper} dollars per month")
 
 
 
